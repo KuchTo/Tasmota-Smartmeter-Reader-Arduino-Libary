@@ -2,11 +2,11 @@
 #include <ESP32SmartMeterReader.h>
 
 // WLAN-Zugangsdaten
-const char* ssid = "WLANGW1339";
+const char* ssid = "dein_WLAN";
 const char* password = "dein_passwort";
 
 // IP-Adresse des Smartmeters (optional)
-String smartMeterIP = "192.168.1.5";
+String smartMeterIP = "dein_SMARTMeter_IP";
 
 // Instanz der Klasse
 ESP32SmartMeterReader smartMeter;
